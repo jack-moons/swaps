@@ -89,6 +89,11 @@ input {
     margin-bottom: 1rem;
 }
 
+input:focus,
+input:active {
+    border: 1px solid #fff !important;
+}
+
 .input::placeholder {
     color: #fff !important;
 }
