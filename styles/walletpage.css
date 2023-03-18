@@ -1424,3 +1424,10 @@ small {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 992px) {
+    .nav-item:nth-child(6) {
+        width: 25%;
+        padding-left: .4rem;
+    }
+}
